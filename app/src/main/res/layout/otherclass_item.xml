@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <CheckBox
+        android:id="@+id/other_checkclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:button="@null"
+        android:background="@android:color/transparent"
+        android:paddingTop="10dp"
+        android:paddingRight="30dp"
+        android:drawableRight="@drawable/other_calss_select"/>
+</LinearLayout>

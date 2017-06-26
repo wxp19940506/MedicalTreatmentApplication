@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B7AD</color>
+    <color name="colorPrimaryDark">#00B7AD</color>
+    <color name="colorAccent">#00B7AD</color>
+    <color name="btnbottom_textcolor_checked">#0EBCB8</color>
+    <color name="btnbottom_textcolor">#A0A0A0</color>
+    <color name="titlebar_background">#00B7AD</color>
+    <color name="titlebar_background1">#9000B7AD</color>
+    <color name="white">#fff</color>
+    <color name="message_back">#F26B1B</color>
+    <color name="login_background">#DAFDFB</color>
+    <color name="commondesc_back">#F0FBFA</color>
+    <color name="login_background1">#E9F2F1</color>
+    <color name="black">#6A6A6A</color>
+    <color name="black0">#9000</color>
+    <color name="black01">#7000</color>
+    <color name="black1">#9C9F9E</color>
+    <color name="black2">#CED7D7</color>
+    <color name="icon_background">#E9E9E7</color>
+    <!--日历-->
+    <color name="color_white">#ffffff</color>
+    <color name="color_green">#72cb3d</color>
+    <color name="color_green_back">#6bbe39</color>
+    <color name="color_orange">#ef9200</color>
+    <color name="color_today_select">#e0f2d8</color>
+    <color name="color_line">#dcdcdc</color>
+    <color name="color_background">#f1f1f1</color>
+    <color name="color_d1">#d1d1d1</color>
+    <color name="color_88">#888888</color>
+    <color name="color_f0">#f0f0f0</color>
+    <color name="color_33">#333333</color>
+    <color name="back">#000</color>
+    <color name="blue">#BEF2EF</color>
+    <color name="icon_button_back">#F0FBFA</color>
+    <color name="person_button_back">#C7EDEB</color>
+    <color name="xunjian_list_back">#EDFBFC</color>
+    <color name="schedule_back">#D2E6E5</color>
+    <color name="text_back">#6DD2CC</color>
+</resources>

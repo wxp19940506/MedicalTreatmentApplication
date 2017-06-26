@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_schedule_common_desc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="iok.la.com.medicaltreatmentapplication.activities.ScheduleCommonDescActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/titlebar_background"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/turn_last"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/zuob"
+            />
+        <TextView
+            android:id="@+id/title"
+            style="@style/Title_Style"
+            android:text="@string/commondesc"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/search_keyword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_style_shape"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="10dp"
+        android:hint="@string/searchcommondesc"
+        android:drawablePadding="5dp"
+        android:textSize="13sp"
+        android:drawableLeft="@mipmap/enlarge"/>
+
+    <ListView
+        android:id="@+id/commondesc_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/commondesc_style_shape"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:descendantFocusability="beforeDescendants"
+        >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/enable"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/login_button_shape"
+        android:text="@string/enable"/>
+</LinearLayout>

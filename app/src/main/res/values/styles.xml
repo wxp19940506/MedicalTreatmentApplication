@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Bottom_Tab_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/btnbottom_text_select</item>
+    </style>
+    <style name="User_Password_Background">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_marginLeft">@dimen/btn_magin</item>
+        <item name="android:layout_marginRight">@dimen/btn_magin</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">20dp</item>
+        <item name="android:paddingLeft">@dimen/drawablePad2</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/btnbottom_text_select</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    <style name="Title_Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/title_textSize</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Personal_Setting">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">43dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#343434</item>
+    </style>
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:paddingLeft="10dp"-->
+    <!--android:text="@string/personal_info"-->
+    <!--android:drawableLeft="@mipmap/personal"-->
+    <style name="Personal_Setting_Text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingLeft">10dp</item>
+    </style>
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginRight="12dp"-->
+    <!--android:layout_marginTop="3dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <style name="Personal_Setting_Image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <style name="OfficeSchedule_Table_Style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--日历-->
+
+    <!-- 标题栏标题文字 -->
+    <style name="top_title_text">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+    <!-- 横向线条 -->
+    <style name="line_horizontal">
+        <item name="android:background">@color/color_line</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style>
+
+    <!-- 纵向线条 -->
+    <style name="line_vertical">
+        <item name="android:background">@color/color_line</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">1dp</item>
+    </style>
+
+
+    <!-- MyCalendar 月份文字 -->
+    <style name="my_Calendar_month">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- MyCalendar 星期文字 -->
+    <style name="my_Calendar_week_text">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+</resources>

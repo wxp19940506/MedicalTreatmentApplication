@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@drawable/button_view_background"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+   <CheckBox
+       android:id="@+id/checkbox"
+       android:layout_width="match_parent"
+       android:layout_height="35dp"
+       android:gravity="center"
+       android:button="@null"
+       android:paddingRight="40dp"
+       android:paddingLeft="40dp"
+       android:drawableRight="@mipmap/selected"
+       android:textColor="@color/schedule_button_text"
+       android:background="@drawable/button_view_background"
+       android:clickable="true"
+       android:text="早班"/>
+
+</LinearLayout>

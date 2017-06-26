@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_textSize">18dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btn_magin">10dp</dimen>
+    <dimen name="drawablePad1">25dp</dimen>
+    <dimen name="edit_height">50dp</dimen>
+    <dimen name="drawablePad2">15dp</dimen>
+    <!-- 日期控件相关 -->
+    <dimen name="my_calendar_button_size">15dp</dimen>
+    <dimen name="my_calendar_padding">15dp</dimen>
+    <dimen name="my_calendar_week_padding_vertical">20dp</dimen>
+    <dimen name="my_calendar_day_padding_vertical">0dp</dimen>
+    <dimen name="my_calendar_day_size">35dp</dimen>
+</resources>

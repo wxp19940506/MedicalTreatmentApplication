@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_office_schedule_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/person_button_back"
+    tools:context="iok.la.com.medicaltreatmentapplication.activities.OfficeScheduleDetailActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/titlebar_background"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/turn_last"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:src="@mipmap/zuob"
+            />
+        <TextView
+            android:id="@+id/title"
+            style="@style/Title_Style"
+            android:text="@string/office_schedule"/>
+    </RelativeLayout>
+    <ExpandableListView
+        android:id="@+id/schedule_date_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp">
+
+    </ExpandableListView>
+</LinearLayout>
